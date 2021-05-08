@@ -6,6 +6,9 @@ public class CalculadoraImc {
 
         Scanner scanner  = new Scanner(System.in);
 
+        System.out.println("Sua idade");
+    double Idade = scanner.nextDouble();
+
      System.out.println("Digite sua altura");
     double Altura = scanner.nextDouble();
 
@@ -13,9 +16,9 @@ public class CalculadoraImc {
     double Peso = scanner.nextDouble();
 
 
-    double resultado = (Peso / (Altura * Altura) ) ;
+    double resultado = ( Peso / (Altura * Altura) ) ;
 
 
-        System.out.println("O resultado e " + resultado);
+        System.out.println(resultado);
 }
     }
