@@ -23,12 +23,11 @@ public class TrabalhandoComTexto {
             double peso = scanner.nextDouble();
 
             //processamento
-            String valoresConcatenados  = "Oi, meu nome é " + nome + ", tenho " + idade + " anos, minha altura é " + altura + " e estou pesando " + peso + " Kg ";
+            System.out.printf("Oi, meu nome é %s, tenho  %d anos, minha altura é %.2f e estou pesando %.2f Kg ", nome, idade, altura);
 
 
             //SAIDA DE DADOS
 
-            System.out.println(valoresConcatenados);
 
             scanner.close();
         }
