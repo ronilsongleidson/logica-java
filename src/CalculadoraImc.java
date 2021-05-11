@@ -19,7 +19,12 @@ public class CalculadoraImc {
 
     double resultado = ( Peso / (Altura * Altura) ) ;
 
+        System.out.printf("%.2f%n",Idade);
+        System.out.printf("%.4f%n",Altura);
+        System.out.printf("%.2f%n",Peso);
 
         System.out.println(resultado);
+
+        scanner.close();
 }
     }

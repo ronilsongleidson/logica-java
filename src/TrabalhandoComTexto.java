@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class TrabalhandoComTexto {
@@ -6,7 +7,7 @@ public class TrabalhandoComTexto {
     public static void main(String[] args){
 
         // Criar mensagem que solicita ao ussuario o nome e idade //
-
+        Locale.setDefault(Locale.US);
          Scanner scanner = new Scanner(System.in); {
 
             System.out.println("Digite o seu nome");
@@ -22,7 +23,7 @@ public class TrabalhandoComTexto {
             double peso = scanner.nextDouble();
 
             //processamento
-            String valoresConcatenados  = "Oi, meu nome é " + nome + ", tenho " + idade + ", minha altura é " + altura + " e estou pesando " + peso + " Kg ";
+            String valoresConcatenados  = "Oi, meu nome é " + nome + ", tenho " + idade + " anos, minha altura é " + altura + " e estou pesando " + peso + " Kg ";
 
 
             //SAIDA DE DADOS

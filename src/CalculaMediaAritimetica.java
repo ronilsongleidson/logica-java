@@ -16,12 +16,13 @@ Suponha um programa que solicita ao usuario dois numeros e epois mostra a media 
 
  */
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class CalculaMediaAritimetica {
 
     public static void main(String[] args){
-
+        Locale.setDefault(Locale.US);
         Scanner scanner  = new Scanner(System.in);
 
         //*** ENTRADA DE DADOS***
@@ -35,7 +36,7 @@ public class CalculaMediaAritimetica {
         double resultado = (primeiroNumero + segundoNumero) / 2;
 
         //***SAIDA DE DADOS***
-        System.out.println("O resultado e " + resultado);
+        System.out.printf("O resultado é %.2f " , resultado);
 
 
     }
