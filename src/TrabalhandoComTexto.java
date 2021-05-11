@@ -23,7 +23,7 @@ public class TrabalhandoComTexto {
             double peso = scanner.nextDouble();
 
             //processamento
-            System.out.printf("Oi, meu nome é %s, tenho  %d anos, minha altura é %.2f e estou pesando %.2f Kg ", nome, idade, altura);
+            System.out.printf("Oi, meu nome é %s, tenho  %d anos, minha altura é %.2f e estou pesando %.2f Kg ", nome, idade, altura, peso);
 
 
             //SAIDA DE DADOS
