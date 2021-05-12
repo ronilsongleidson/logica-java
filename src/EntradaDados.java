@@ -28,6 +28,8 @@ public class EntradaDados {
         int y = scanner.nextInt();
         double z = scanner.nextDouble();
 
+
+// Entrada de Dados
         int x;
         String s1, s2, s3;
 
