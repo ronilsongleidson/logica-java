@@ -16,31 +16,26 @@ Exemplo:
 public class ExercicioResolvido {
 
 
-    public  static void  main(String[]  args) {
+        public static void main(String[] args) {
+            Locale.setDefault(Locale.US);
+            Scanner scanner = new Scanner(System.in);
 
-        Locale.setDefault(Locale.US);
-        Scanner sc  =  new   Scanner(System.in);
+            // entrada de dados
+            double largura = scanner.nextDouble();
+            double comprimento = scanner.nextDouble();
+            double metroQuadrado = scanner.nextDouble();
 
-        System.out.println("Insira a area");
-        double largura = sc.nextDouble();
+            // processamento
+            double area = largura * comprimento;
+            double preco = area * metroQuadrado;
 
-        System.out.println("Insira o comprimento");
-        double comprimento = sc.nextDouble();
-
-        System.out.println("Insira o metro quadrado");
-        double metroQuadrado = sc.nextDouble();
-
-        System.out.println();
-        double area = largura * comprimento;
-        double preco = area * metroQuadrado;
-
-
-        System.out.printf("SUA AREA É = %.2f%n", area);
-        System.out.printf("SEU PRECO É = $ %.2f%n", preco);
+            // saida de dados
+            System.out.printf("AREA = %.2f%n", area);
+            System.out.printf("PRECO = %.2f%n", preco);
 
 
-        sc.close();
-    }
+            scanner.close();
+        }
 
 }
 
