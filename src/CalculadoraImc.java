@@ -7,7 +7,7 @@ public class CalculadoraImc {
         Locale.setDefault(Locale.US);
         Scanner scanner  = new Scanner(System.in);
 
-        System.out.println("Sua idade");
+        System.out.println("Idade");
     double Idade = scanner.nextDouble();
 
      System.out.println("Digite sua altura");
