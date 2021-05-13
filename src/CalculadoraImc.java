@@ -1,5 +1,8 @@
+import java.sql.SQLOutput;
 import java.util.Locale;
 import java.util.Scanner;
+
+//https://docs.oracle.com/javase/tutorial/java/data/numberformat.html
 
 public class CalculadoraImc {
 
@@ -19,7 +22,9 @@ public class CalculadoraImc {
 
     double resultado = ( Peso / (Altura * Altura) ) ;
 
+        System.out.printf("Minha idade é %s Tenho %.2f e peso %.2f Kg", Idade, Altura, Peso);
 
-        System.out.println(resultado);
+
+        scanner.close();
 }
     }
